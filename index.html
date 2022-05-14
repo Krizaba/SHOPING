@@ -87,17 +87,37 @@
         }
         
         .btn-shopnow {
-            border-radius: 5px;
+            border-radius: 10px;
             background: #f85e9f;
             color: #ffffff;
         }
         
         .btn-shopnow:hover {
             background: #900b42;
-            transition: 0.3s;
+            border: 1px solid #900b42;
         }
         
-        @media screen and (max-width: 399.98px) {}
+        @media screen and (max-width: 599.98px) {
+            img.two-col-img {
+                height: auto!important;
+                padding-top: 20px!important;
+                padding-bottom: 20px!important;
+            }
+            .two-columns {
+                border: 0.5px solid rgb(236, 236, 236);
+            }
+        }
+        
+        @media screen and (max-width: 399.98px) {
+            img.two-col-img {
+                height: auto!important;
+                padding-top: 20px!important;
+                padding-bottom: 20px!important;
+            }
+            .two-columns {
+                border: 0.5px solid rgb(236, 236, 236);
+            }
+        }
     </style>
 </head>
 
@@ -175,8 +195,10 @@
                         </table>
                     </td>
                 </tr>
+
+                <!-- 1st ROW TWO COLUMNS -->
                 <tr>
-                    <td style="padding: 5px 0 30px 0;">
+                    <td style="padding: 0;">
                         <table width="100%" style="border-spacing: 0;" role="presentation">
                             <tr>
                                 <td class="two-columns" style="padding: 0;font-size: 0;text-align: center;">
@@ -189,22 +211,23 @@
 
                                     <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block;" role="presentation">
                                         <tr>
-                                            <td class="padding" style="text-align: left; padding: 30px 30px;">
+                                            <td class="padding">
 
-                                                <table class="content" style="border-spacing: 0;text-align: left;" role="presentation">
+                                                <table class="content " style="border-spacing: 0;text-align: left; " role="presentation ">
 
                                                     <tr>
-                                                        <td class="offer" style="padding: 10px;"></td>">
-                                                        <h2 style="font-size: 24px;font-weight: 500; color:rgb(0, 0, 0): 25px;">Young Woman Dress</h2>
-                                                        <p style="font-size: 15px;line-height: 35px; color:#9e9e9e">A small River called Duden flows by their place and supplies it with the necessary regalia</p>
+                                                        <td style="padding: 30px; ">
+                                                            <p style="font-size: 25px;font-weight: 500;line-height: 25px; color:#000; ">Young Woman dress</p>
+                                                            <p style="font-size: 15px;line-height: 30px; color:rgb(154, 154, 154) ">Responsive HTML Email Templates that you can build around to master email development.</p>
+                                                        </td>
                                                     </tr>
-
                                                     <tr>
-                                                        <td align="left" style="padding-left: 10px;">
-                                                            <table align="left" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                                                        <td align="left " style="padding-left: 30px; ">
+                                                            <table align="left " border="0 " cellpadding="0 " style="border-spacing: 0; " role="presentation ">
                                                                 <tr>
-                                                                    <td style="border-radius: 10px;" bgcolor="#1e5d7b">
-                                                                        <a class="btn-shopnow" href="https://example.com" target="_blank" style="font-size: 16px; font-weight: bold;text-decoration:none;color:#ffffff;background-color: #f85e9f;border:1px solid #f85e9f;border-radius: 10px;padding: 10px 25px;display: inline-block;">Shop now</a>
+                                                                    <td>
+                                                                        <a class="btn-shopnow " href="https://example.com " target="_blank " style="font-size: 16px; font-weight: bold;text-decoration:none;border:1px solid#f85e9f;padding: 12px 25px;display:
+                                                inline-block; ">Shop Now</a>
                                                                     </td>
 
                                                                 </tr>
@@ -212,45 +235,124 @@
                                                         </td>
                                                     </tr>
                                                 </table>
+
+                                            </td>
                                         </tr>
+                                    </table>
 
-
-                            </tr>
-                            </table>
-
-                            <!--[if (gte mso 9)|(IE)]>
-                                </td><td width="300" valign="top" style="padding: 0;">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="300 " valign="top " style="padding: 0; ">
                                 <![endif]-->
 
-                            <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block;" role="presentation">
-                                <tr>
-                                    <td class="padding" style="padding: 0px;">
+                                    <table class="column " style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block; " role="presentation ">
+                                        <tr>
+                                            <td class="padding ">
 
-                                        <table class="content" style="border-spacing: 0;text-align: left;" role="presentation">
-                                            <tr>
-                                                <td>
-                                                    <a href="https://example.com" target="_blank"><img class="two-col-img" src="images/product-1.jpg" alt="" width="100%" style="max-width: 100%; " border="0"></a>
-                                                </td>
-                                            </tr>
+                                                <table class="content " style="border-spacing: 0;text-align: left; " role="presentation ">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="https://example.com " target="_blank "><img class="two-col-img " src="images/product-1.jpg " alt=" " width="100% " style="max-width: 100%; "></a>
+                                                        </td>
+                                                    </tr>
 
-                                        </table>
+                                                </table>
 
-                                    </td>
-                                </tr>
-                            </table>
+                                            </td>
+                                        </tr>
+                                    </table>
 
-                            <!--[if (gte mso 9)|(IE)]>
+                                    <!--[if (gte mso 9)|(IE)]>
                                    </td>
                                    </tr>
                                    </table>
                                 <![endif]-->
 
-                            </td>
-                </tr>
-                </table>
-                </td>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
 
+                <!-- END OF 1st ROW TWO COLUMNS -->
+                <!-- 2d ROW TWO COLUMNS -->
+                <tr>
+                    <td style="padding: 0; ">
+                        <table width="100% " style="border-spacing: 0; " role="presentation ">
+                            <tr>
+                                <td class="two-columns " style="padding: 0;font-size: 0;text-align: center; ">
+
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="300 " valign="top " style="padding: 0; ">
+                                <![endif]-->
+
+                                    <table class="column " style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block; " role="presentation ">
+                                        <tr>
+                                            <td class="padding ">
+
+                                                <table class="content " style="border-spacing: 0;text-align: left; " role="presentation ">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="https://example.com " target="_blank "><img class="two-col-img " src="images/product-1.jpg " alt=" " width="100% " style="max-width: 100%; "></a>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                                   <table width="100% " style="border-spacing: 0; " role="presentation ">
+                                   <tr>
+                                   <td width="300 " valign="top " style="padding: 0; ">
+                                <![endif]-->
+
+                                    <table class="column " style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block; " role="presentation ">
+                                        <tr>
+                                            <td class="padding " style="padding: 20px; ">
+
+                                                <table class="content " style="border-spacing: 0;text-align: left; " role="presentation ">
+
+                                                    <tr>
+                                                        <td style="padding: 10px; ">
+                                                            <p style="font-size: 25px;font-weight: 500;line-height: 25px; color:#000; ">Young Woman dress</p>
+                                                            <p style="font-size: 15px;line-height: 30px; color:rgb(154, 154, 154) ">Responsive HTML Email Templates that you can build around to master email development.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left " style="padding-left: 10px; ">
+                                                            <table align="left " border="0 " cellpadding="0 " style="border-spacing: 0; " role="presentation ">
+                                                                <tr>
+                                                                    <td>
+                                                                        <a class="btn-shopnow " href="https://example.com " target="_blank " style="font-size: 16px; font-weight: bold;text-decoration:none;border:1px solid#f85e9f;padding: 12px 25px;display:
+                                                inline-block; ">Shop Now</a>
+                                                                    </td>
+
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                                   </td>
+                                   </tr>
+                                   </table>
+                                <![endif]-->
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- END OF 2d ROW TWO COLUMNS -->
             </table>
         </div>
     </center>
